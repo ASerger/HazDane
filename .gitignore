@@ -127,3 +127,18 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Config file
+config.py
+
+# VSCode
+.vscode/
+
+# TensorFlow flower_photos
+HazDane/flower_photos
+
+# Other
+HazDane/singleClassImages
+HazDane/temp.txt
+HazDane/urls.txt
+HazDane/cleanedUrls.txt
