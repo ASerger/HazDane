@@ -15,9 +15,9 @@ img_width = ml_img_width
 
 model = tf.keras.models.load_model("nnModel")
 
-model.summary()
+# model.summary()
 
-img_path = 'index.jpg'
+img_path = 'index.png'
 img = keras.preprocessing.image.load_img(img_path, target_size=(img_height, img_width))
 img_array = keras.preprocessing.image.img_to_array(img)
 img_array = tf.expand_dims(img_array, 0) # Create a batch
